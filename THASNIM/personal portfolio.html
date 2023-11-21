@@ -1,0 +1,162 @@
+<DOCTYPE html>
+<html lange="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equive="X-UA-Compatible" content="IE="edge">
+<meta name="viewpoint" content="width=device-width",initial-scale="1.0">
+<title>PERSONAL PORTFOLIO</title>
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e7e2e2;
+        }
+
+        header {
+            background-color: #edeaea;
+            color: rgb(132, 13, 13);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .profile {
+            float: left;
+            width: 30%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+
+        .skills {
+            float: right;
+            width: 60%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+
+        .contact {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        @media (max-width: 768px) {
+            .profile,
+            .skills,
+            .contact {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body >
+<div id="header">
+
+<div class="container">
+
+<nav>
+<img src="image2.jpeg"class="logo">
+
+</nav>
+
+<div class="header-text">
+
+<p>IHRD Student</p>
+<h1> Hi,l'm <span> Shifa Thasnim </span><br> From India</h1>
+
+</div>
+
+</div>
+
+</div>
+<div id="About ">
+
+<div class="container">
+
+<div class="row">
+
+<div class"About-col-1">
+</div>
+<img src=" ">
+
+<div class="About-col-2">
+</div>
+
+<h1 class="sub-title">About Me</h1>
+<p> lam a student whoms studing at applied science of chelakkara.<br>For the course of BCA.<br> lam fist year student.<br>now l studied about html css js with help of mulearn. </p>
+<div class="tab.title">
+<p class="tab-links"onclick="opentab('eduction and skills')">eduction and skills</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+<ul>
+<li><span>HTML</span></li>
+<li><span>CSS</span></li>
+<li><span>JS</span></li></ul>
+</div>
+<div class="tab.contents" id="eduction">
+<ul>
+<li><span>20220-2021</span><br>10th pass out from AL-IRSHAD ENGLISH SCHOOL</li>
+<li><span>20221-2022</span><br>12th pass out from little flower school</li>
+<li><span>2023-2026</span><br> ongoing for BCA in IHRD college</li></ul>
+</div>
+</div>
+</div></div></div>
+<div id="Mywork">
+<div class="container">
+<h1 class="sub-title">Mywork</h1>
+<div class="work-list">
+<div class="work">
+<img src="first.png">
+</div>
+<div class="work">
+<img src="second.png">
+</div>
+<div class="work">
+<img src="third.png">
+</div>
+<div class="work">
+<img src="fourth.jpeg">
+</div>
+</div></div>
+</div>
+<div id="Contact">
+<div class="container">
+<div class="contact-left">
+<h1 class="sub-title">Contact me</h1>
+<p>Email:shifathasnim2020@gmail.com</p>
+<p>Social Media:</p>
+            <a href="https://github.com/Shifathasnim">GitHub</a>
+        </div>
+</div></div></div>
+<script>
+var tabcontents=document.getElementsByClassName("tab-content");
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classlist.remove("active.link");
+}
+for(tabcontent of tabcontents){
+tabcontent-classlist.remove("active-tab");
+event.currenttarget.classlist.add("active.link");
+document.getElementsByClassName(tabname).classlist.add("active-tab");
+</script>
+</body>
+</html>
+
